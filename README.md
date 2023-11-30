@@ -45,6 +45,11 @@ yarn install
 yarn build
 ```
 
+# runing the relayer bot with transactions off, with the .env file setting PRIVATE_KEY
+```
+SEND_RELAYS=false yarn relay --wallet privateKey
+```
+
 # Community
 
 General discussion happens most frequently on the [Across discord](https://discord.com/invite/across).
