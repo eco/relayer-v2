@@ -1,4 +1,4 @@
-FROM node:16
+FROM node:16.20.2
 
 WORKDIR /relayer-v2
 
@@ -11,3 +11,4 @@ RUN yarn
 RUN yarn build
 
 ENTRYPOINT ["/bin/bash", "scripts/runCommand.sh"]
+
